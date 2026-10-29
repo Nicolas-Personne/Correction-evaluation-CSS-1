@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(255,0,0);
+    text-align: center;
+    height: fit-content;
+    padding: 50px 0;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family: "bebas neue", sans-serif;
+    letter-spacing: -1px;
+}
+
+h2{
+    font-size: 2em;
+    font-family: "bebas neue", sans-serif;
+    letter-spacing: -1px;
+}
+
+span{
+    font-family: inherit;
+}
+
+p{
+    font-size: 0.85em;
+}
+
+body {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23666666' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: white;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(92,70,70,0.7);
+    height: 550px;
+    width: 60%;
+    margin: 50px 20% 0 ;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.cardtop{
+    max-width: 45%;
+    margin: 40px 30px 0 ;
+}
+
+.cardtop p{
+    margin-top: 20px;
+}
+.cardtop h2{
+    margin-bottom: 30px;
+}
+
+.cardbot{
+    margin: 0px 30px 50px;
+}
+
+.cardbot p{
+    margin-top: 20px;
+}
+
+.card img{
+    position: absolute;
+    max-width: 45%;
+    top: 40px;
+    right: 30px;
+}
+
+.card img:hover{
+    transform: rotate(3deg);
+}
